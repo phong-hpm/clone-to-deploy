@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://phong-hpm.github.io/clone-to-deploy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,6 +22,7 @@
     "classnames": "^2.5.1",
     "dotenv": "^16.4.5",
     "formik": "^2.4.5",
+    "gh-pages": "^6.1.1",
     "lodash": "^4.17.21",
     "oidc-client-ts": "^3.0.1",
     "react": "^18.2.0",
