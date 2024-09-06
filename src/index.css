@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'TitilliumText25L', sans-serif;
+}
+
+@font-face {
+  font-family: 'TitilliumText25L';
+  src: url('/public/font/TitilliumText25L001.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TitilliumText25L';
+  src: url('/public/font/TitilliumText25L002.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TitilliumText25L';
+  src: url('/public/font/TitilliumText25L003.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TitilliumText25L';
+  src: url('/public/font/TitilliumText25L004.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TitilliumText25L';
+  src: url('/public/font/TitilliumText25L005.otf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+.custom-placeholder::placeholder {
+  color: #3f484b;
+  font-weight: 600;
+}

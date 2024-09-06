@@ -1,1 +1,3 @@
-# clone-to-deploy
+# install package
+
+- `yarn`
